@@ -1,0 +1,37 @@
+{
+  "reference": "https://www.eatcabalar.com/",
+  "palette": {
+    "paper": "#ffffff",
+    "green": "#025a3c",
+    "red": "#d62828",
+    "soft": "#f0f5f1"
+  },
+  "booking": "https://naver.me/xtgp91Fv",
+  "menu": [
+    {
+      "name": "콰트로 스타지오네",
+      "type": "피자 · 시그니처 1",
+      "lead": "한 판에 네 가지 맛, 처음이라면 이것부터.",
+      "body": "네 가지 토핑을 한 번에 즐길 수 있는 화덕피자입니다.",
+      "image": "pizza.webp"
+    },
+    {
+      "name": "콰트로 포르마지",
+      "type": "피자 · 시그니처 2",
+      "lead": "치즈만 네 가지, 치즈덕후의 첫 판.",
+      "body": "고르곤졸라·크림치즈·레지아노·모짜렐라를 한 판에 담았습니다.",
+      "image": "quattro.webp"
+    },
+    {
+      "name": "감베리 크레마",
+      "type": "파스타 · 시그니처 3",
+      "lead": "새우 크림 위에 모짜렐라, 화덕에서 한 번 더.",
+      "body": "매콤한 새우 크림 파스타 위의 치즈를 화덕 열로 녹여냅니다.",
+      "image": "cream.webp"
+    }
+  ],
+  "image_source_quattro": "https://naverbooking-phinf.pstatic.net/20240213_115/170780519043316iKf_JPEG/%C6%F7%B8%A3%B8%B6%C1%F6.JPG",
+  "facts_checked": "2026-10-31",
+  "facts_source": "https://naver.me/xtgp91Fv",
+  "naver_place": "https://naver.me/xtgp91Fv"
+}

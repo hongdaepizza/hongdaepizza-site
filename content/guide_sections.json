@@ -1,0 +1,349 @@
+{
+  "reviewed_on": "2026-11-21",
+  "related_title": {
+    "en": "Related menu and visit guides",
+    "ja": "メニューと来店の関連案内",
+    "zh-Hans": "相关菜单与到店指南"
+  },
+  "languages": {
+    "en": {
+      "cheese-pizza": {
+        "headings": [
+          "Four cheeses and the dough",
+          "Varied toppings on one pizza",
+          "Choosing a half-and-half",
+          "Pairing pizza with pasta",
+          "Plan your visit"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "gamberi-crema": {
+        "headings": [
+          "Choose by sauce and ingredients",
+          "Getting here from your station",
+          "Choosing the pasta shape"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "directions": {
+        "headings": [
+          "Approximate walking times",
+          "Station exits and the entrance"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema"
+        ]
+      },
+      "reservation": {
+        "headings": [
+          "Choosing dishes to share",
+          "Share your plans with friends",
+          "Walking directions",
+          "How to check a reservation",
+          "Current booking conditions"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "pizza-pasta-for-two": {
+        "headings": [
+          "Choosing pizza and pasta together",
+          "Photos and reservation checks",
+          "Sharing different flavours"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "family-visit": {
+        "headings": [
+          "Choosing a pizza to share",
+          "Pasta and children’s dishes",
+          "High-chair availability",
+          "The dining space and walking route",
+          "Checking your family reservation",
+          "Planning a Christmas family meal",
+          "Christmas Eve and Christmas Day"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "vesuvio-oven": {
+        "headings": [
+          "Compare the actual pizza and dough",
+          "Choose toppings and plan your visit",
+          "An Italian example of volcanic-stone use"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "blue-ribbon-2027": {
+        "headings": [
+          "The food behind the announcement"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "cheese-pizza"
+        ]
+      },
+      "christmas-date": {
+        "headings": [
+          "Choosing your dishes",
+          "Check the current menu",
+          "See the actual dining space",
+          "Check your preferred date",
+          "Walking directions"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      }
+    },
+    "ja": {
+      "cheese-pizza": {
+        "headings": [
+          "四種のチーズと生地の食感",
+          "一枚で多彩な具材を楽しむ",
+          "ハーフ＆ハーフの選び方",
+          "ピザとパスタの組み合わせ",
+          "来店前の確認"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "gamberi-crema": {
+        "headings": [
+          "ソースと食材で選ぶ",
+          "待ち合わせる駅からのアクセス",
+          "パスタの形を選ぶ"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "directions": {
+        "headings": [
+          "徒歩時間の目安",
+          "駅の出口と入口の見つけ方"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema"
+        ]
+      },
+      "reservation": {
+        "headings": [
+          "シェアする料理の選び方",
+          "友人と予定を共有する",
+          "駅からの道順",
+          "予約の確認方法",
+          "予約ページの最新条件"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "pizza-pasta-for-two": {
+        "headings": [
+          "ピザとパスタの組み合わせ",
+          "写真と予約を確認する",
+          "違う味を分け合う"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "family-visit": {
+        "headings": [
+          "家族で分け合うピザ",
+          "パスタとお子さまの料理",
+          "ベビーチェアの利用確認",
+          "店内写真と駅からの道順",
+          "家族の食事の予約",
+          "クリスマスの家族の食事",
+          "クリスマスイブ・当日の確認"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "vesuvio-oven": {
+        "headings": [
+          "実際のピザと生地を比べる",
+          "具材と来店予定を選ぶ",
+          "イタリアでの火山石の使用例"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "blue-ribbon-2027": {
+        "headings": [
+          "お知らせと当店の料理"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "cheese-pizza"
+        ]
+      },
+      "christmas-date": {
+        "headings": [
+          "料理を選ぶ",
+          "最新メニューの確認",
+          "実際の店内を見る",
+          "希望日の予約確認",
+          "駅からのアクセス"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      }
+    },
+    "zh-Hans": {
+      "cheese-pizza": {
+        "headings": [
+          "四种芝士与饼底口感",
+          "一张披萨的多种馅料",
+          "双拼怎么选",
+          "披萨搭配什么意面",
+          "到店前确认"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "gamberi-crema": {
+        "headings": [
+          "按酱汁与食材选择",
+          "从见面车站到店",
+          "选择意面形状"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "directions": {
+        "headings": [
+          "步行时间参考",
+          "车站出口与店铺入口"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema"
+        ]
+      },
+      "reservation": {
+        "headings": [
+          "分享菜品怎么选",
+          "与朋友分享用餐安排",
+          "各车站到店路线",
+          "如何确认预约",
+          "预约页面的当前条件"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "pizza-pasta-for-two": {
+        "headings": [
+          "披萨与意面的搭配",
+          "查看照片与预约",
+          "分享不同口味"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "family-visit": {
+        "headings": [
+          "家庭共享的披萨怎么选",
+          "意面与孩子的菜品",
+          "儿童餐椅使用情况",
+          "实际空间与步行路线",
+          "确认家庭聚餐预约",
+          "准备圣诞家庭餐",
+          "平安夜与圣诞节当天"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      },
+      "vesuvio-oven": {
+        "headings": [
+          "比较实际披萨与面团",
+          "选择馅料与到店安排",
+          "意大利使用火山石的例子"
+        ],
+        "related": [
+          "cheese-pizza",
+          "directions"
+        ]
+      },
+      "blue-ribbon-2027": {
+        "headings": [
+          "公告与本店菜品"
+        ],
+        "related": [
+          "vesuvio-oven",
+          "cheese-pizza"
+        ]
+      },
+      "christmas-date": {
+        "headings": [
+          "挑选菜品",
+          "查看当前菜单",
+          "看看真实用餐空间",
+          "确认所选日期",
+          "车站步行路线"
+        ],
+        "related": [
+          "cheese-pizza",
+          "gamberi-crema",
+          "directions"
+        ]
+      }
+    }
+  }
+}

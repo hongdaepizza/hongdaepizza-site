@@ -1,0 +1,108 @@
+{
+  "label": "Español",
+  "nav": [
+    "Menú",
+    "Horno",
+    "Espacio",
+    "Cómo llegar"
+  ],
+  "book": "Reservar en Naver",
+  "menu_link": "Menú completo en Naver",
+  "all_guides": "Guías para tu visita",
+  "back": "Todas las guías",
+  "skip": "Ir al contenido",
+  "play": "Reproducir",
+  "pause": "Pausar",
+  "title": "홍대화덕피자 | Pizza al horno de piedra y pasta en Hongdae, Hapjeong y Sangsu",
+  "hero": [
+    "Queso que se estira.",
+    "Masa tierna y elástica."
+  ],
+  "intro": "Pizza al horno de piedra y pasta en 홍대화덕피자, entre Hongdae, Hapjeong y Sangsu.",
+  "hero_body": "Desde una pizza con cuatro combinaciones de ingredientes hasta pasta cremosa de gambas con un toque picante y queso gratinado. Elige tus platos para compartir.",
+  "caption": "Un trozo de felicidad en 홍대화덕피자.",
+  "menu_title": "Nuestros platos de la casa.",
+  "menu_intro": "Para tu primera visita, empieza por estos tres.",
+  "menu_names": [
+    "Quattro Stagioni",
+    "Quattro Formaggi",
+    "Gamberi Crema"
+  ],
+  "menu_desc": [
+    "Cuatro combinaciones de ingredientes en una pizza al horno de piedra.",
+    "Gorgonzola, queso crema, Reggiano y mozzarella.",
+    "Pasta cremosa de gambas y setas, ligeramente picante, con queso gratinado en el horno."
+  ],
+  "half": "Dos sabores en una pizza mitad y mitad.",
+  "table_caption": "Pizza y pasta para disfrutar juntos.",
+  "regulars": [
+    "Una mesa a la que volver.",
+    "Preparamos pizza aquí desde 2012. Mira las fotos reales de nuestros platos y del restaurante antes de venir."
+  ],
+  "oven": [
+    "Un horno de piedra volcánica italiana.",
+    "Nuestro horno está hecho con piedra volcánica del Vesubio, en Italia. Preparamos masa fermentada durante 72 horas y salsas cocinadas en el restaurante."
+  ],
+  "space": [
+    "Para una cita o una comida familiar.",
+    "Comparte pizza y pasta con tu pareja, con tu familia o con amigos."
+  ],
+  "purposes": [
+    "Citas",
+    "Amigos",
+    "Comidas familiares"
+  ],
+  "purpose_body": [
+    "Una pizza mitad y mitad y pasta para compartir entre dos.",
+    "Elige platos diferentes y compártelos en la mesa.",
+    "Pizza al horno de piedra y pasta para disfrutar en familia."
+  ],
+  "reserve_title": "Prepara tu próxima visita.",
+  "reserve_body": "Abre nuestra página de Naver Place y pulsa el botón de reserva para consultar disponibilidad. Contacta con el restaurante si no puedes seleccionar el número de comensales.",
+  "visit_title": "A unos 5 minutos de Hapjeong o Sangsu.",
+  "visit_body": "A unos 15 minutos a pie de Hongik University Station.",
+  "address_label": "Dirección",
+  "address": "Planta 1, 5 Dongmak-ro 7-gil, Mapo-gu, Seúl",
+  "hours_label": "Horario",
+  "hours": "11:30–22:00 · Último pedido 21:30. Pausa de 15:30 a 16:30 los lunes, miércoles, jueves y viernes. Cerrado los martes. Consulta cambios en Naver.",
+  "phone_label": "Teléfono",
+  "directions": "Ruta en Naver",
+  "stories_title": "Un poco más antes de venir.",
+  "source_note": "Consulta el menú y los precios actuales en Naver Place.",
+  "date_label": "Actualizado",
+  "photo_alt": "Fotos reales de platos y del restaurante 홍대화덕피자",
+  "guides": {
+    "cheese-pizza": [
+      "Pizza al horno de piedra en Hongdae, Hapjeong y Sangsu",
+      "Si te gusta el queso, prueba Quattro Formaggi (콰트로 포르마지), con gorgonzola, queso crema, Reggiano y mozzarella. Quattro Stagioni (콰트로 스타지오네) reúne cuatro combinaciones de ingredientes en una pizza. También puedes elegir dos sabores en una pizza mitad y mitad.\n\nMira las fotos reales y elige los ingredientes que prefieras. Puedes acompañar la pizza con pasta."
+    ],
+    "gamberi-crema": [
+      "Pasta cerca de Hapjeong y Sangsu: crema, tomate o aceite",
+      "La pasta también puede ser el plato principal de tu visita. Gamberi Crema (감베리 크레마) lleva gambas y setas en una salsa cremosa picante, con queso gratinado en el horno. Para este plato puedes elegir penne, espaguetis o linguine; consulta por separado las opciones de otros platos.\n\nEntre las salsas de tomate están Gamberi Piccante (감베리 피칸테), picante, y Pomodoro (뽀모도로), con tomate, queso y albahaca. Gamberi e Rucola (감베리 에 루꼴라) combina gambas y rúcula en una pasta al aceite. Vongole (봉골레) lleva almejas, mejillones, ajo y calabacín."
+    ],
+    "directions": [
+      "Cómo llegar desde Hapjeong, Sangsu y Hongik University",
+      "La dirección es 서울 마포구 독막로7길 5, 1층: planta 1, 5 Dongmak-ro 7-gil, Mapo-gu, Seúl. Puedes copiar la dirección coreana en el mapa. Busca el letrero 홍대화덕피자 y compara la entrada con la foto.\n\nCalcula unos 5 minutos a pie desde Hapjeong o Sangsu, o unos 15 minutos desde Hongik University Station. Son tiempos aproximados; consulta la ruta en Naver antes de salir."
+    ],
+    "reservation": [
+      "Cómo consultar disponibilidad y reservar",
+      "El enlace de reserva abre nuestra página de Naver Place. Pulsa el botón de reserva y consulta fecha, hora y número de comensales. Naver puede mostrar la página en coreano.\n\nSi no aparece el número de comensales que necesitas, llama al 0507-1349-2285. No se garantiza una mesa concreta. Esta guía no confirma que todos los números de teléfono extranjeros permitan reservar mediante Naver."
+    ],
+    "pizza-pasta-for-two": [
+      "Pizza y pasta para una cita en Hongdae",
+      "Antes de una cita o un primer encuentro, mira las fotos reales de la comida y del interior. Una pizza mitad y mitad permite probar distintos ingredientes entre dos, y la pasta aporta otro sabor para compartir.\n\nCombina una pizza de queso con pasta cremosa, de tomate o al aceite según tus gustos. Consulta disponibilidad en Naver Place antes de venir."
+    ],
+    "family-visit": [
+      "Comidas familiares en Hongdae, Hapjeong y Sangsu",
+      "Comparte pizza al horno de piedra y pasta en familia. Mira las fotos reales del menú y del interior, y elige platos para compartir. Antes de pedir para niños, consulta los ingredientes y el nivel de picante.\n\nHay tronas disponibles; consulta su disponibilidad antes de venir si necesitas una. Revisa la fecha y el número de comensales en Naver y contacta con el restaurante si no puedes seleccionar tu grupo."
+    ],
+    "vesuvio-oven": [
+      "Nuestro horno de piedra volcánica del Vesubio",
+      "El horno del restaurante está hecho con piedra volcánica del Vesubio, en Italia. La piedra conserva el calor para hornear la pizza a alta temperatura.\n\nPreparamos masa fermentada durante 72 horas y salsas cocinadas en el restaurante. Las fotos muestran nuestro horno y nuestras pizzas."
+    ],
+    "blue-ribbon-2027": [
+      "Nuestro anuncio sobre Blue Ribbon Survey 2027",
+      "El restaurante ha publicado en Naver Place un anuncio sobre su selección para Blue Ribbon Survey 2027. Consulta allí el anuncio actual del restaurante.\n\nEsta página no verifica de forma independiente la lista del editor ni el número de cintas. El anuncio es distinto de la disponibilidad de reservas y del menú actual."
+    ]
+  }
+}

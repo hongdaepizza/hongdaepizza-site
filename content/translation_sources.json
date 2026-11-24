@@ -1,0 +1,19 @@
+{
+  "reviewed_on": "2026-11-21",
+  "source_sha256": {
+    "blue-ribbon-2027": "f975eeaeac083f545b354f0888b2dc695092a03a9054f25e55fc09a44b980b95",
+    "cheese-pizza": "11da6e4db522a311d1fa377853128bec16d28959f93b03f8bc37dc8ce6ac7eed",
+    "directions": "f960e03d2c82d2c7eb518ff9da3a01494121a486882591da163a97697a63f729",
+    "family-visit": "ded775509781c939cba217918c9f903933d365916ca87b5d1826a7f26359e2ad",
+    "gamberi-crema": "c163f7b542aa429675c2d156f8cd452a4cb1442f304e6c7871546a92829c02f6",
+    "pizza-pasta-for-two": "af46e2025e24f9d4d2e7563c2c2a5dd34cad1bb53cfe7ea053b0e16b85e19513",
+    "reservation": "2cb43e31ed313d0aa7cb50bd46db95586234d88d37286bc70f18c841df4409b9",
+    "vesuvio-oven": "18ccdded8c5cf9ff845949a32b036dd0a78df031e3d3b179f6f6036d934fac53",
+    "christmas-date": "42fc0de15ef3e52a66c9a52fd551fdfbe51a43563e5f1acf0f7d3ca4d1bed9ca"
+  },
+  "languages": [
+    "en",
+    "ja",
+    "zh-Hans"
+  ]
+}
