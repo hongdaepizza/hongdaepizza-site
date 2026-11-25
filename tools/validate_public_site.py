@@ -47,7 +47,11 @@ locs=[n.text for n in ET.parse(DIST/'sitemap.xml').iter('{http://www.sitemaps.or
 import sys
 sys.path.insert(0, str(ROOT))
 from build import read_posts
+PRIVACY={'/privacy/','/en/privacy/','/ja/privacy/','/zh/privacy/'}
+assert PRIVACY<=set(pages),'privacy notice pages are missing'
+for path in PRIVACY:assert 'noindex,follow' in (DIST/path.strip('/')/'index.html').read_text(encoding='utf-8'),path
+indexed={p for p in pages if p not in PRIVACY}
 expected_pages = 4 * (2 + len(read_posts(ROOT/'content/posts')))
-assert len(locs)==len(set(locs))==len(pages)==expected_pages
-assert set(locs)=={ORIGIN+p for p in pages}
+assert len(locs)==len(set(locs))==len(indexed)==expected_pages
+assert set(locs)=={ORIGIN+p for p in indexed}
 print(f'PASS: {len(pages)} pages, 4 languages, no menu amounts, reciprocal hreflang/canonical, sitemap, anchors, assets and Naver links.')

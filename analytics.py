@@ -4,7 +4,7 @@ import re, shutil
 def integrate_analytics(dist):
     shutil.copyfile(Path(__file__).with_name('analytics.js'), dist/'analytics.js')
     roles = {
-        'reservation': ('예약','Reserve','Book','予約','预订'),
+        'reservation': ('예약','Reserve','Book','booking','予約','预订'),
         'menu': ('메뉴','가격','Menu','menu','メニュー','菜单'),
         'directions': ('길','지도','Directions','道順','路线'),
     }

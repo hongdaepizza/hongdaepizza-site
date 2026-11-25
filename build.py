@@ -1,7 +1,7 @@
 """Build the public site and durable Markdown posts without a server-side editor."""
 from pathlib import Path
 from html import escape
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 import json
 import hashlib
 import re
@@ -175,6 +175,8 @@ def build(root=ROOT):
             f'<p class="menu-lead">{escape(item["lead"])}</p><p class="menu-body">{escape(item["body"])}</p>'
             '</article>')
     page = page.replace('<!-- MENU_ITEMS -->', ''.join(items))
+    # Korean year count since opening in 2012 (2026 = 15th year), using Korea time.
+    page = page.replace('<!-- YEARS -->', str(datetime.now(timezone(timedelta(hours=9))).year - 2012 + 1))
     page = page.replace('data-booking target=', f'data-booking href="{escape(content["booking"], quote=True)}" target=')
     page = page.replace('<!-- STORY_ITEMS -->', ''.join(card(p) for p in posts[:3]))
     page = page.replace('<!-- POSTS_JSON -->', post_json(posts))
@@ -235,6 +237,8 @@ def build(root=ROOT):
             post['url'], inner, nav, footer, schema, naver_url=naver_url), encoding='utf-8')
     from i18n import build_locales
     localized_urls = build_locales(root, posts, restaurant)
+    from privacy import build_privacy
+    build_privacy(root, dist, page_shell, nav, footer, restaurant)
     from analytics import integrate_analytics
     integrate_analytics(dist)
     # A changed stylesheet/script gets a new URL so returning visitors do not

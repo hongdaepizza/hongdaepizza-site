@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # 00:05 KST on 1 January: rebuild so the '2012년부터 N년째' count moves to the new year.
+    - cron: "5 15 31 12 *"
 
 permissions:
   contents: read

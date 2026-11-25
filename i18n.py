@@ -4,6 +4,7 @@ from html import escape as e
 import json,re,hashlib
 ORIGIN='https://hongdaepizza.com'
 NAVER='https://naver.me/xtgp91Fv'
+PRIVACY={'en':'Privacy notice','ja':'プライバシーについて','zh-Hans':'隐私说明'}
 LABELS={'ko':'한국어','en':'English','ja':'日本語','zh-Hans':'简体中文'}
 PREFIX={'ko':'','en':'/en','ja':'/ja','zh-Hans':'/zh'}
 PHOTOS={'christmas-date':'table.webp','cheese-pizza':'pizza.webp','gamberi-crema':'cream.webp','directions':'night.webp','reservation':'interior.webp','pizza-pasta-for-two':'drinks.webp','family-visit':'table.webp','vesuvio-oven':'oven-pizza.webp','blue-ribbon-2027':'night.webp'}
@@ -33,7 +34,7 @@ def shell(lang,t,path,title,description,body,restaurant):
  canonical=ORIGIN+url(lang,path)
  preview=PHOTOS['pizza-pasta-for-two'] if path == '/stories/pizza-pasta-for-two/' else 'table.webp'
  schema={'@context':'https://schema.org','@graph':[{**restaurant,'@id':ORIGIN+'/#restaurant','url':ORIGIN+url(lang)},{'@type':'WebPage','@id':canonical,'url':canonical,'inLanguage':lang,'name':title,'about':{'@id':ORIGIN+'/#restaurant'}}]}
- return '<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'+f'<title>{e(title)}</title><meta name="description" content="{e(description,quote=True)}"><link rel="canonical" href="{canonical}">'+alternates(path)+f'<meta property="og:title" content="{e(title,quote=True)}"><meta property="og:description" content="{e(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/{preview}"><meta property="og:type" content="website"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script></head><body id="top" class="localized"><a class="skip" href="#main">'+e(t['skip'])+'</a>'+nav(lang,t,path)+'<main id="main">'+body+'</main><footer class="footer"><div class="wrap"><a href="'+url(lang)+'">홍대화덕피자</a><p>'+e(t['address'])+'<br>서울 마포구 독막로7길 5, 1층</p><small>© 홍대화덕피자</small></div></footer><script src="/app.js"></script></body></html>'
+ return '<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'+f'<title>{e(title)}</title><meta name="description" content="{e(description,quote=True)}"><link rel="canonical" href="{canonical}">'+alternates(path)+f'<meta property="og:title" content="{e(title,quote=True)}"><meta property="og:description" content="{e(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{ORIGIN}/assets/{preview}"><meta property="og:type" content="website"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script></head><body id="top" class="localized"><a class="skip" href="#main">'+e(t['skip'])+'</a>'+nav(lang,t,path)+'<main id="main">'+body+'</main><footer class="footer"><div class="wrap"><a href="'+url(lang)+'">홍대화덕피자</a><p>'+e(t['address'])+'<br>서울 마포구 독막로7길 5, 1층<br><a href="'+url(lang,'/privacy/')+'">'+e(PRIVACY[lang])+'</a></p><small>© 홍대화덕피자</small></div></footer><script src="/app.js"></script></body></html>'
 
 def story_photo_url(slug):
  thumbnail_overrides={
