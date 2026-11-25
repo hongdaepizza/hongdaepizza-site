@@ -45,3 +45,5 @@
 .story-preview-controls{display:flex;justify-content:flex-end;margin:0 0 12px}
 .story-preview-toggle{font:inherit;font-size:12px;color:var(--green);background:white;border:1px solid var(--line);border-radius:24px;padding:8px 13px;cursor:pointer}
 @media(prefers-reduced-motion:reduce){.story-preview{display:none}.story-preview-controls{display:none}}
+
+.hero-offer{font-size:13px;font-weight:700;color:var(--red);line-height:1.7;margin-bottom:14px;word-break:keep-all}@media(max-width:700px){.hero-offer{font-size:12px;margin-bottom:12px}}
