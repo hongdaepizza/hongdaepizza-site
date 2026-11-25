@@ -46,3 +46,21 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Notify Naver and IndexNow about changed pages
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: python tools/indexnow.py
