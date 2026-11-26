@@ -79,7 +79,7 @@ def render_markdown(text):
         for match in re.finditer(r'\[([^\]\n]+)\]\(([^\s)]+)\)', value):
             parts.append(escape(value[cursor:match.start()]))
             label, url = match.groups()
-            if (url.startswith('/') and not url.startswith('//')) or re.match(r'^https://[A-Za-z0-9.-]+(?:[/:?#]|$)', url):
+            if (url.startswith('/') and not url.startswith('//')) or re.match(r'^https://[A-Za-z0-9.-]+(?:[/:?#]|$)', url) or re.fullmatch(r'tel:\+?[0-9-]+', url):
                 parts.append(f'<a href="{escape(url, quote=True)}">{escape(label)}</a>')
             else:
                 parts.append(escape(match.group()))

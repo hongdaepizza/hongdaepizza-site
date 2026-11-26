@@ -3,7 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote,urljoin
 import re,xml.etree.ElementTree as ET
-ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist';ORIGIN='https://hongdaepizza.com'
+ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist';ORIGIN='https://hongdaepizza.com';TEL='tel:+82-507-1349-2285'
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.canonical=[];self.alternates={};self.h1=0;self.ids=set();self.lang=None;self.money=[]
  def handle_starttag(self,tag,attrs):
@@ -12,7 +12,7 @@ class Page(HTMLParser):
    href=a['href']
    target=urlsplit(urljoin(ORIGIN+'/',href))
    is_internal=target.scheme=='https' and target.netloc==urlsplit(ORIGIN).netloc
-   assert is_internal or href=='https://naver.me/xtgp91Fv',('invalid customer link',href)
+   assert is_internal or href in ('https://naver.me/xtgp91Fv',TEL),('invalid customer link',href)
   if 'id' in a:assert a['id'] not in self.ids,('duplicate id',a['id']);self.ids.add(a['id'])
   if tag=='h1':self.h1+=1
   if tag=='html':self.lang=a.get('lang')

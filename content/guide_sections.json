@@ -72,7 +72,7 @@
         "headings": [
           "Choosing a pizza to share",
           "Pasta and children’s dishes",
-          "High-chair availability",
+          "High chairs",
           "The dining space and walking route",
           "Checking your family reservation",
           "Planning a Christmas family meal",
@@ -109,7 +109,7 @@
           "Choosing your dishes",
           "Check the current menu",
           "See the actual dining space",
-          "Check your preferred date",
+          "Christmas Eve and Christmas Day",
           "Walking directions"
         ],
         "related": [
@@ -185,11 +185,11 @@
         "headings": [
           "家族で分け合うピザ",
           "パスタとお子さまの料理",
-          "ベビーチェアの利用確認",
+          "ベビーチェア",
           "店内写真と駅からの道順",
           "家族の食事の予約",
           "クリスマスの家族の食事",
-          "クリスマスイブ・当日の確認"
+          "クリスマスイブ・当日の来店"
         ],
         "related": [
           "cheese-pizza",
@@ -222,7 +222,7 @@
           "料理を選ぶ",
           "最新メニューの確認",
           "実際の店内を見る",
-          "希望日の予約確認",
+          "クリスマスイブ・当日の来店",
           "駅からのアクセス"
         ],
         "related": [
@@ -298,7 +298,7 @@
         "headings": [
           "家庭共享的披萨怎么选",
           "意面与孩子的菜品",
-          "儿童餐椅使用情况",
+          "儿童餐椅",
           "实际空间与步行路线",
           "确认家庭聚餐预约",
           "准备圣诞家庭餐",
@@ -335,7 +335,7 @@
           "挑选菜品",
           "查看当前菜单",
           "看看真实用餐空间",
-          "确认所选日期",
+          "平安夜与圣诞节当天",
           "车站步行路线"
         ],
         "related": [
