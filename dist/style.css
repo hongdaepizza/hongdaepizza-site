@@ -49,3 +49,22 @@
 .hero-offer{font-size:13px;font-weight:700;color:var(--red);line-height:1.7;margin-bottom:14px;word-break:keep-all}@media(max-width:700px){.hero-offer{font-size:12px;margin-bottom:12px}}
 .footer p a{text-decoration:underline;font-size:inherit;color:inherit}.privacy h2{font-size:20px;margin-top:30px}
 .hero-proof.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0}.hero-proof.hero-stats>div{padding:0 16px}.hero-proof.hero-stats>div:first-child{padding-left:0}.hero-proof.hero-stats>div+div{border-left:1px solid var(--line);padding-left:16px}.hero-proof.hero-stats strong{display:block;font-family:Georgia,serif;font-size:34px;font-weight:400;line-height:1.15;letter-spacing:-.02em}.hero-proof.hero-stats strong span{font-size:22px}.hero-proof.hero-stats>div:last-child strong{color:var(--red)}.hero-proof.hero-stats small{display:block;font-size:13px;font-weight:700;color:var(--green);margin:7px 0 0;line-height:1.45;word-break:keep-all}.hero-proof.hero-stats-one{grid-template-columns:1fr}.visit-info .tel-link{font-weight:700;color:var(--green);text-decoration:underline;text-underline-offset:3px}@media(max-width:700px){.hero-proof.hero-stats>div{padding:0 10px}.hero-proof.hero-stats>div+div{padding-left:10px}.hero-proof.hero-stats strong{font-size:27px}.hero-proof.hero-stats strong span{font-size:18px}.hero-proof.hero-stats small{font-size:12px;margin-top:6px}}@media(max-width:360px){.hero-proof.hero-stats strong{font-size:23px}.hero-proof.hero-stats small{font-size:11px}}
+
+/* Readability floor (2026-11-26): no customer-facing text below these sizes. Keep this block last. */
+.eyebrow,.menu-card .menu-type,.story-card .category,.article-category,.article-meta,.article-meta time,figcaption,.feast figcaption,.hero-photo figcaption,.article-photo figcaption,.video-toggle,.booking-section small,.footer p,.footer small,.footer a{font-size:13px!important;line-height:1.7}
+.hero-description,.hero-offer,.section-head p:not(.eyebrow),.menu-body,.menu-lead,.proof-grid p,.proof-grid h3,.oven-copy>p:not(.eyebrow),.space-copy>p:not(.eyebrow),.space-copy dt,.space-copy dd,.visit-info>p,.visit-info dt,.visit-info dd,.story-card p,.booking-section p,.archive-intro,.analytics-panel p,.analytics-panel details p{font-size:15px!important;line-height:1.8}
+.pill,.half-banner a,.filters button,.plain-link,.header nav a,.language-menu summary,.language-options a,.more-row button,.analytics-panel button,.analytics-panel summary,.analytics-panel a{font-size:14px!important}
+.hero-proof.hero-stats small{font-size:14px!important}
+.half-banner p{font-size:17px!important}
+@media(max-width:700px){
+.eyebrow,.menu-card .menu-type,.story-card .category,.article-category,.article-meta,.article-meta time,figcaption,.feast figcaption,.hero-photo figcaption,.article-photo figcaption,.video-toggle,.booking-section small,.footer p,.footer small,.footer a{font-size:12px!important}
+.hero-description,.hero-offer,.section-head p:not(.eyebrow),.menu-body,.menu-lead,.proof-grid p,.proof-grid h3,.oven-copy>p:not(.eyebrow),.space-copy>p:not(.eyebrow),.space-copy dt,.space-copy dd,.visit-info>p,.visit-info dt,.visit-info dd,.story-card p,.booking-section p,.archive-intro,.analytics-panel p,.analytics-panel details p{font-size:14px!important}
+.pill,.half-banner a,.filters button,.plain-link,.header nav a,.language-menu summary,.language-options a,.more-row button,.analytics-panel button,.analytics-panel summary,.analytics-panel a{font-size:13px!important}
+.header .pill{padding:9px 12px;gap:6px}
+.hero-proof.hero-stats small{font-size:13px!important}
+.half-banner p{font-size:16px!important}
+.booking-section small{max-width:320px}
+.visit-info dl>div{grid-template-columns:78px 1fr}
+}
+/* Language pages use the same 9:16 hero frame as Korean (no green side bars). */
+.localized .hero-photo{height:auto}

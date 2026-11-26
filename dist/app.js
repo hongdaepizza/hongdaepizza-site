@@ -31,13 +31,6 @@ const storyPreviewState=(()=>{
    videos.add(video);video.muted=true;
    video.addEventListener('error',()=>{video.dataset.failed='true';stop(video);});
    if(observer)observer.observe(video);
-   const grid=video.closest('.story-grid');
-   if(grid&&!grid.previousElementSibling?.classList.contains('story-preview-controls')){
-    const controls=document.createElement('div');controls.className='story-preview-controls';
-    const button=document.createElement('button');button.type='button';button.className='story-preview-toggle';
-    button.addEventListener('click',()=>{userPaused=!userPaused;refresh();});
-    controls.append(button);grid.before(controls);
-   }
   });syncControls();
  }
  motion.addEventListener('change',refresh);
